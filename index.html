@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>인소일</title>
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script defer src="js/common.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <header id="header">
+      <div class="inner">
+        <div class="icon">
+          <a href="#" class="icon_search">
+            <img class="search" src="images/common/search_b.png" alt="검색">
+          </a>
+          <a class="icon-mypage" href="#">
+            <p>my page</p>
+            <img src="images/common/user.png" alt="마이페이지">
+          </a>
+          <a class="icon-cart" href="#">
+            <p>0</p>
+            <img src="images/common/cart_b.png" alt="장바구니">
+          </a>
+        </div> <!--icon-->
+
+        <div class="nav_wrap">
+          <h1 class="logo"><a href="#"><img src="images/common/logo.png" alt="인소일"></a></h1>
+
+          <nav>
+            <ul class="gnb">
+              <li><a class="gnb-weight" href="#">ABOUT</a></li>
+              <li><a class="gnb-weight" href="#">COLLECTION</a>
+                <ul class="depth2">
+                  <li><a href="#">Soil</a></li>
+                  <li><a href="#">Blooming</a></li>
+                  <li><a href="#">Moonlight</a></li>
+                  <li><a href="#">Creepy</a></li>
+                </ul>
+              </li>
+              <li><a class="gnb-weight" href="#">SHOP</a>
+                <ul class="depth2 left">
+                  <li><a href="#">cup</a></li>
+                  <li><a href="#">plate</a></li>
+                  <li><a href="#">bowl</a></li>
+                  <li><a href="#">cutlery</a></li>
+                  <li><a href="#">fabric</a></li>
+                </ul>
+              </li>
+              <li><a class="gnb-weight" href="#">CONTACT</a></li>
+            </ul>
+
+            <div class="mgnb_wrap">
+              <ul class="mgnb">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">COLLECTION</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">Soil</a></li>
+                    <li><a href="#">Blooming</a></li>
+                    <li><a href="#">Moonlight</a></li>
+                    <li><a href="#">Creepy</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">SHOP</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">cup</a></li>
+                    <li><a href="#">plate</a></li>
+                    <li><a href="#">bowl</a></li>
+                    <li><a href="#">cutlery</a></li>
+                    <li><a href="#">fabric</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+
+              <ul class="mgnb mgnb_bottom">
+                <li><a href="#">LOGIN / JOIN</a></li>
+                <li><a href="#">REVIEW</a></li>
+                <li><a href="#">FAQ / Q&A</a></li>
+                <li><a href="#">STOKIST</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">Korea</a></li>
+                    <li><a href="#">France</a></li>
+                    <li><a href="#">Germany</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="mgnb_sns">
+                <li><a href="#"><span class="txt-bg1">Facebook</span></a></li>
+                <li><a href="#"><span class="txt-bg2">Instagram</span></a></li>
+                <li><a href="#"><span class="txt-bg3">Kakaotalk</span></a></li>
+              </ul>
+
+              <ul class="mgnb_contact">
+                <li>070-8777-1501 <span>(9:30 ~ 17:30)</span></li>
+                <li><a href="#">hello@insoil.co.kr</a></li>
+              </ul>
+              <div class="mgnb_close">close</div>
+            </div>
+          </nav>
+
+          <a class="icon-menu" href="#">
+            <span class="menu">menu</span>
+            <img src="images/common/menu.svg" alt="menu">
+          </a>
+        </div> <!--nav_wrap-->
+      </div> <!--inner-->
+    </header>
+
+    <div id="fullpage">
+      <section data-anchor="sec1" class="visual section">
+        <div class="visual-img">
+          <div class="inner">
+            <div class="swiper mv">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide desk"><a href="#">
+                    <img class="mv_txt" src="images/main/main_visual_txt_1.png" alt="">
+                    <img class="mv_bg" src="images/main/soil.jpg" alt="">
+                    <img class="mv_sub_txt" src="images/main/main_visual_sub_txt1.png" alt="">
+                  </a></li>
+                <li class="swiper-slide"><a href="#">
+                    <img class="mv_txt size_down" src="images/main/main_visual_txt_2.png" alt="">
+                    <img class="mv_bg" src="images/main/moonlight.jpg" alt="">
+                    <img class="mv_sub_txt" src="images/main/main_visual_sub_txt2.png" alt="">
+                  </a></li>
+                <li class="swiper-slide"><a href="#">
+                    <img class="mv_txt" src="images/main/main_visual_txt_3.png" alt="">
+                    <img class="mv_bg" src="images/main/blooming.jpg" alt="">
+                    <img class="mv_sub_txt" src="images/main/main_visual_sub_txt3.png" alt="">
+                  </a></li>
+              </ul> <!--swiper-wrapper-->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div> <!--swiper-->
+          </div> <!--inner-->
+        </div> <!--visual-img-->
+
+        <div class="notice">
+          <div class="inner">
+            <div class="swiper notice_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span>Weclome, our new theme is now open!</span>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span>NEW Membership Event</span>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span>카카오 채널 친구 추가 Secret Coupon!</span>
+                  </a>
+                </li>
+              </ul> <!--swiper-wrapper-->
+            </div> <!--swiper notice_list-->
+          </div> <!--inner-->
+        </div> <!--notice-->
+      </section>
+
+      <section class="story section">
+        <div class="sub_title">
+          <h2>Our story</h2>
+        </div>
+
+        <div class="inner">
+          <div class="swiper txt_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide two-column">
+                <h5>"So that your everyday life can firmly root."</h5>
+                <p>우리는 당신의 일상이 단단하게 뿌리내릴 수 있는 물건을 직접 만들어요.</p>
+              </li>
+              <li class="swiper-slide">
+                <p>인소일은 2016년 서울의 작은 집에서부터 시작되었습니다. <br>
+                  우리는 <span>일상에서 얻는 잔잔한 만족감, <br>
+                    그 행복에서 영감을 얻어 다양한 물건을 직접 제작하고 있어요. </span></p>
+              </li>
+              <li class="swiper-slide">
+                <p>우리의 물건들로 <br><span>당신의 일상이 단단하게 뿌리내릴 수 있도록 </span><br> 작은 도움이 될게요.</p>
+              </li>
+              <li class="swiper-slide two-column">
+                <p>사소한 행복으로도 기분좋은 포만감을 느끼는 삶. <br>
+                  <span>평안한 매일이 되기를 진심으로 바랍니다.</span>
+                </p>
+              </li>
+            </ul>
+
+            <a href="#"><button class="btn_more story_view1">view more</button></a>
+          </div>
+
+          <div class="swiper img_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide"><img src="images/main/story1.png" alt=""></li>
+              <li class="swiper-slide"><img src="images/main/story2.png" alt=""></li>
+              <li class="swiper-slide"><img src="images/main/story3.png" alt=""></li>
+              <li class="swiper-slide"><img src="images/main/story4.png" alt=""></li>
+            </ul>
+
+            <a href="#"><button class="btn_more story_view2">view more</button></a>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div> <!--inner-->
+      </section>
+
+      <section class="gift section">
+        <div class="inner">
+          <div class="sub_title">
+            <h2>A gift for you</h2>
+            <p>오래 기억될 선물을 찾고있는 당신에게</p>
+          </div>
+
+          <div class="swiper gift_prd">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift1.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                <h3 class="prd_name">Blooming Dessert Bowl 2ea / Oval</h3>
+                <p class="prd_price">75,000원</p>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift2.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">Soil 1인 Set (3colors)</h3>
+                <p class="prd_price">122,000원</p>
+                <div class="color_list">
+                  <div class="sand_color"></div>
+                  <div class="stone_color"></div>
+                  <div class="soil_color"></div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift3.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">Moonlight Plate + Makgeolli Cup 2ea Set</h3>
+                <p class="prd_price">85,000원</p>
+                <div class="color_list">
+                  <div class="white_color"></div>
+                  <div class="blue_color"></div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift4.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">Creepy Goblet Cup 2p Set</h3>
+                <p class="prd_price">36,000원</p>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift5.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">NEW moon Bottle + Cup Set (2colors)</h3>
+                <p class="prd_price">65,000원</p>
+                <div class="color_list">
+                  <div class="white_color"></div>
+                  <div class="blue_color"></div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift6.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">Blooming 1인 Set</h3>
+                <p class="prd_price">100,000원</p>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift7.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">Blooming Dessert Bowl 2p Set</h3>
+                <p class="prd_price">45,000원</p>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift8.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">A Cup of Moon Bottle + Cup Set</h3>
+                <p class="prd_price">55,000원</p>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <img class="gift_prd_img" src="images/main/gift9.jpg" alt="">
+                  <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                </a>
+                <h3 class="prd_name">Moonlight Makgeolli Cup 2ea Set</h3>
+                <p class="prd_price">50,000원</p>
+              </li>
+            </ul>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <a href="#"><button class="btn_more">view more</button></a>
+
+        </div> <!--inner-->
+      </section>
+
+      <section class="shop section">
+        <div class="shop_bg"></div>
+
+        <div class="inner">
+          <div class="shop_title">
+            <h2>Shop</h2>
+            <img class="bg1" src="images/main/cup.png" alt="cup-bg">
+            <img class="bg2" src="images/main/plate.png" alt="plate-bg">
+            <img class="bg3" src="images/main/bowl.png" alt="bowl-bg">
+            <img class="bg4" src="images/main/cutlery.png" alt="cutlery-bg">
+            <img class="bg5" src="images/main/fabric.png" alt="fabric-bg">
+          </div>
+
+          <div class="category_wrap">
+            <div class="category">
+              <h3 class="active category1">Cup</h3>
+              <h3 class="category2">Plate</h3>
+              <h3 class="category3">Bowl</h3>
+              <h3 class="category4">Cutlery</h3>
+              <h3 class="category5">Fabric</h3>
+            </div>
+
+            <div class="card cup">
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="sand_color">
+                        <img src="images/main/cup1_sand.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="stone_color">
+                        <img src="images/main/cup1_stone.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="soil_color">
+                        <img src="images/main/cup1_soil.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt">
+                  <a href="#">
+                    <h3 class="prd_name">Soil Short Mug <br> (3colors)</h3>
+                    <p class="prd_price">26,000원</p>
+                    <img class="cart_more" src="images/common/cart_w.png" alt="장바구니">
+                  </a>
+                </div>
+              </div>
+
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="sand_color">
+                        <img src="images/main/cup2_sand.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="stone_color">
+                        <img src="images/main/cup2_stone.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="soil_color">
+                        <img src="images/main/cup2_soil.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt">
+                  <h3 class="prd_name">Soil Long Mug <br> (3colors)</h3>
+                  <p class="prd_price">29,000원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+            </div> <!--card-->
+
+            <div class="card plate">
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#">
+                        <img src="images/main/plate1.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt short_txt">
+                  <h3 class="prd_name">Blooming Circle Plate</h3>
+                  <p class="prd_price">48,000원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#">
+                        <img src="images/main/plate2.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt one_card">
+                  <h3 class="prd_name">Blooming Side Dish Plate 02</h3>
+                  <p class="prd_price">21,000원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+            </div> <!--card-->
+
+            <div class="card bowl">
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="sand_color">
+                        <img src="images/main/bowl1_sand.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="stone_color">
+                        <img src="images/main/bowl1_stone.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="soil_color">
+                        <img src="images/main/bowl1_soil.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt">
+                  <h3 class="prd_name">Long Plate + Tiny Bowl (3colors)</h3>
+                  <p class="prd_price">46,500원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="sand_color">
+                        <img src="images/main/bowl2_sand.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="stone_color">
+                        <img src="images/main/bowl2_stone.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="soil_color">
+                        <img src="images/main/bowl2_soil.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt short_txt">
+                  <h3 class="prd_name">Soil Bowl (3colors)</h3>
+                  <p class="prd_price">45,000원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+            </div> <!--card-->
+
+            <div class="card cutlery">
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="black_color">
+                        <img src="images/main/cutlery1.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt one_card">
+                  <h3 class="prd_name">KODAI Vintage Black S (3type)</h3>
+                  <p class="prd_price">12,000원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="black_color">
+                        <img src="images/main/cutlery2.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt one_card">
+                  <h3 class="prd_name">KODAI Vintage Black L (3type)</h3>
+                  <p class="prd_price">14,500원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+            </div> <!--card-->
+
+            <div class="card fabric">
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="gw_color">
+                        <img src="images/main/fabric1_1.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="dark_color">
+                        <img src="images/main/fabric1_2.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt">
+                  <h3 class="prd_name">Grain Cushion Cover</h3>
+                  <p class="prd_price">28,000원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+              <div class="prd_wrap">
+                <div class="swiper shop_prd">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="gw_color">
+                        <img src="images/main/fabric2_1.png" alt="">
+                      </a>
+                    </li>
+                    <li class="swiper-slide shop_prd1">
+                      <a href="#" class="dark_color">
+                        <img src="images/main/fabric2_2.png" alt="">
+                      </a>
+                    </li>
+                  </ul> <!--swiper-wrapper-->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> <!--swiper-->
+
+                <div class="shop_txt short_txt">
+                  <h3 class="prd_name">Grain Tissue Case</h3>
+                  <p class="prd_price">20,000원</p>
+                  <a href="#"><img class="cart_more" src="images/common/cart_w.png" alt="장바구니"></a>
+                </div>
+              </div>
+
+            </div> <!--card-->
+
+
+          </div> <!--category_wrap-->
+        </div> <!--inner-->
+
+        <a href="#"><button class="btn_more">view more</button></a>
+
+      </section>
+
+      <section class="collection section">
+        <div class="inner">
+          <div class="sub_title">
+            <h2>Our collections</h2>
+            <p>인소일 만의 잔잔한 감성을 다양하게 감상해보세요.</p>
+          </div>
+
+          <div class="collection_list">
+            <ul class="soil">
+              <li>
+                <a href="#"><img class="col1" src="images/main/collection1.jpg" alt=""></a>
+                <h5>Soil</h5>
+              </li>
+            </ul>
+            <ul class="blooming">
+              <li>
+                <a href="#"><img class="col2" src="images/main/collection2.png" alt=""></a>
+                <h5>Blooming</h5>
+              </li>
+            </ul>
+            <ul class="moonlight">
+              <li>
+                <a href="#"><img class="col1" src="images/main/collection3.png" alt=""></a>
+                <h5>Moonlight</h5>
+              </li>
+            </ul>
+            <ul class="creepy">
+              <li>
+                <a href="#"><img class="col2" src="images/main/collection4.png" alt=""></a>
+                <h5>Creepy</h5>
+              </li>
+            </ul>
+          </div>
+        </div> <!--inner-->
+      </section>
+
+      <section class="review section">
+        <div class="inner">
+          <div class="sub_title">
+            <h2>Reviews</h2>
+            <p>인소일 만의 잔잔한 감성을 다양하게 감상해보세요.</p>
+          </div>
+
+          <div class="swiper review_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="content">
+                  <img src="images/main/review1.jpeg" alt="">
+                  <div class="content_txt long_txt">
+                    <p class="user">네****</p>
+                    <span class="date">2024-12-31 03:14:58</span>
+                    <p class="txt">너무 귀여워요! 롱머그 사고싶은데 ㅠㅠ <br>
+                      맨날 품절되어 있네요 ㅠㅠ</p>
+                    <a href="#"><button class="btn_more">shop</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="content long_txt">
+                  <img src="images/main/review2.jpeg" alt="">
+                  <div class="content_txt">
+                    <p class="user">네****</p>
+                    <span class="date">2024-12-25 03:01:11</span>
+                    <p class="txt">색이랑 선이 너무 예뻐서 소스로만 쓰기 아까울것 같아 찬기로 많이 쓰려구요</p>
+                    <a href="#"><button class="btn_more">shop</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="content">
+                  <img src="images/main/review3.jpeg" alt="">
+                  <div class="content_txt">
+                    <p class="user">네****</p>
+                    <span class="date">2024-12-31 03:14:58</span>
+                    <p class="txt">너무 귀여워요. 과일이랑 특히 잘 어울려요</p>
+                    <a href="#"><button class="btn_more">shop</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="content">
+                  <img src="images/main/review4.jpeg" alt="">
+                  <div class="content_txt">
+                    <p class="user">네****</p>
+                    <span class="date">2024-12-25 03:01:11</span>
+                    <p class="txt">친구에게 선물해줬는데 아주 맘에 들어하네요
+                    </p>
+                    <a href="#"><button class="btn_more">shop</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="content">
+                  <img src="images/main/review5.jpg" alt="">
+                  <div class="content_txt">
+                    <p class="user">네****</p>
+                    <span class="date">2024-12-25 03:01:11</span>
+                    <p class="txt">인소일 제품은 다른 찬기랑도 잘 어울려서 너무 좋은 것 같아요 <br>
+                    </p>
+                    <a href="#"><button class="btn_more">shop</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="content">
+                  <img src="images/main/review6.jpeg" alt="">
+                  <div class="content_txt long_txt">
+                    <p class="user">네****</p>
+                    <span class="date">2024-12-25 03:01:11</span>
+                    <p class="txt">디저트 그릇으로도 좋고 반찬 그릇으로도 좋아서 활용도가 높아요!
+                    </p>
+                    <a href="#"><button class="btn_more">shop</button></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div> <!--inner-->
+      </section>
+
+      <footer id="footer" class="section">
+        <div class="footer_mv"></div> <!--background-->
+        <div class="footer_rotate"></div>
+
+        <div class="inner">
+          <div class="footer_top">
+            <div class="footer_top1">
+              <a href="#">
+                <p>ABOUT</p>
+              </a>
+              <a href="#">
+                <p>COLLECTION</p>
+              </a>
+              <a href="#">
+                <p>SHOP</p>
+              </a>
+              <a href="#">
+                <p>CONTACT</p>
+              </a>
+            </div>
+            <div class="footer_top2">
+              <p>CEO/CPO CEO/CPO. 강재연, 강지혜</p>
+              <p>사업자번호. 679-79-00044 <a href="#"><span>[사업자정보확인]</span></a> 통신판매업.</p>
+              <p>경기도 고양시 덕양구 세솔로2길</p>
+
+              <h1 class="email">hello@insoil.co.kr</h1>
+            </div>
+            <div class="footer_sns">
+              <a href="#">
+                <p>Facebook</p>
+              </a>
+              <a href="#">
+                <p>Instagram</p>
+              </a>
+              <a href="#">
+                <p>Kakaotalk</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer_bottom">
+            <a href="#"><img src="images/common/logo.png" alt=""></a>
+            <div class="footer_bottom_txt">
+              <a href="#">
+                <p class="guide">Guide ｜ Provacy Policy</p>
+              </a>
+              <p>ⓒ2025</p>
+            </div>
+          </div>
+        </div><!--inner-->
+      </footer>
+
+      <a href="#sec1" class="gotop">맨 위로가기</a>
+    </div> <!--fullpage-->
+  </div> <!--wrap-->
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1500,
+    });
+  </script>
+
+</body>
+
+</html>
